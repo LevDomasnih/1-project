@@ -65,18 +65,74 @@ body{
     width: 1250px;
     height: 487px;
     background-image: url(bottom-header.png);
-    margin-top: 57px;
+    margin-top: 45px;
 }
 
 
 .bottom-header-top {
-    width: 1250px;
+    width: 878px;
     height: 120px;
     padding-left: 186px;
-    padding-top: 64px;
+    padding-right: 186px;
+    padding-top: 0px;
 }
 
 .bottom-header-bottom {
-    width: 1250px;
+    width: 922px;
     height: 367px;
+    padding: 0 165px 0 163px;
+}
+
+.bottom-header-top > img{
+    position: relative;
+    top: 56px;
+}
+.bhb-left {
+    width: 381px;
+    height: 321px;
+    display: inline-block;
+    float: left;
+    padding-top: 46px;
+}
+
+.bhb-right {
+    width: 540px;
+    height: 335px;
+    display: inline-block;
+    float: left;
+    padding-top: 45px
+}
+
+.number,.text{
+    position:relative;
+    top: 36px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.number{
+    margin-right: 35px;
+}
+.text > span{
+    color: red;
+}
+
+.livehelp > img{
+    float: right;
+}
+
+.lh-text{
+    position: relative;
+    top: 11px;
+    left: 248px;
+    font-size: 20px;
+    color: white;
+}
+.text-bht {
+    position: relative;
+    top: 88px;
+    left: 90px;
+    font-size: 20px;
+    color: white;
+    z-index: 10;
 }
