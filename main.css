@@ -32,8 +32,10 @@ body{
 }
 
 .top-content {
-    width: 1250px;
+    width: 980px;
     height: 90px;
+    padding-right: 135px;
+    padding-left: 135px;
     background-color: #464646;
 }
 
@@ -65,7 +67,7 @@ body{
     width: 1250px;
     height: 487px;
     background-image: url(bottom-header.png);
-    margin-top: 45px;
+    margin-top: 41px;
 }
 
 
@@ -135,4 +137,177 @@ body{
     font-size: 20px;
     color: white;
     z-index: 10;
+}
+
+.menu-header >ul{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.menu-header >ul>li{
+    display: inline;
+    list-style: none;
+}
+
+.menu-header >ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 0 18px 0 18px;
+}
+
+.menu-header >ul>li>a:hover{
+    color: red;
+}
+.th-left {
+    width: 491px;
+    height: 132px;
+    float: left;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 160px;
+    font-size: 26px;
+}
+
+.th-right {
+    width: 599px;
+    height: 132px;
+    float: left;
+    display: inline-block;
+    padding-top: 25px;
+}
+.th-right>a{
+    position: relative;
+    top: -60px;
+    left: 214px;;
+    z-index: 10;
+}
+
+.th-right>p{
+    z-index: 3;
+    position: relative;
+    left: 200px;
+}
+
+.text-thr{
+    position: relative;
+    top: -68px;
+    left: 233px;
+    z-index: 10;
+    font-size: 16px;
+}
+
+.mail-thr{
+    position: relative;
+    top: -87px;
+    left: 420px;
+    z-index: 10;
+}
+
+.th-left>p>span{
+    font-family: sans-serif;
+    color: white;
+}
+
+.text-thr>a{
+    text-decoration: none;
+    color: white;
+}
+
+.th-left>p>a{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+.th-left>p>a>span{
+    color: white;
+}
+.tc-left {
+    width: 800px;
+    height: 90px;
+    display: inline-block;
+    float: left;
+}
+
+.tc-right {
+    width: 170px;
+    height: 72px;
+    padding-top: 18px;
+    display: inline-block;
+    float: left;
+}
+
+.tcl-top {
+    width: 800px;
+    height: 34px;
+    float: left;
+    padding-top: 15px;
+}
+
+.tcl-bottom {
+    width: 800px;
+    height: 41px;
+    float: left;
+}
+
+.tcl-top > span{
+    color: white;
+    font-size: 24pt;
+}
+
+.tcl-bottom > span{
+    color: #bababa;
+    font-size: 10pt;
+}
+.tcr-button {
+    width: 170px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #de1e22;  
+}
+
+.tcr-button > span{
+    color: white;
+    font-size: 24pt;
+    position: relative;
+    top: 6px;
+    left: 21px;
+}
+
+.tc-right > a{
+    text-decoration: none;
+    color: white;
+}
+.bottom-content {
+    width: 980px;
+    height: 479px;
+    padding-right: 135px;
+    padding-left: 135px;
+}
+
+.bc-left {
+    width: 649px;
+    height: 479px;
+    margin-right: 31px;
+    float: left;
+    display: inline-block;
+}
+
+.bc-right {
+    width: 300px;
+    height: 479px;
+    float: left;
+    display: inline-block;
+}
+
+.bcl-top {
+    width: 649px;
+    height: 140px;
+    float: left;
+}
+
+.bcl-bottom {
+    width: 649px;
+    height: 339px;
+    float: left;
 }
