@@ -40,8 +40,9 @@ body{
 }
 
 .top-footer {
-    width: 1250px;
+    width: 980px;
     height: 299px;
+    padding: 0 135px 0 135px;
     background-image: url(footer-top.png);
 }
 
@@ -505,4 +506,85 @@ body{
 .bcrwt-right >span > a{
     text-decoration:none;
     color: #ff0000;
+}
+.tf-one {
+    width: 260px;
+    height: 269px;
+    float: left;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.tf-four {
+    width: 260px;
+    height: 299px;
+    float: left;
+    display: inline-block;
+    color: white;
+    font-size: 15pt;
+}
+
+.tf-two {
+    width: 230px;
+    height: 299px;
+    float: left;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.tf-three {
+    width: 230px;
+    height: 299px;
+    float: left;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.tf-one >div{
+    width: 250px;
+    height: 25px;
+    border-bottom: 1px dotted #c4c4c4;
+}
+
+.tf-one >div>a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: #c4c4c4;
+}
+
+.tf-two >div{
+    width: 220px;
+    height: 25px;
+    border-bottom: 1px dotted #c4c4c4;
+}
+
+.tf-two >div>a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: #c4c4c4;
+}
+
+.tf-three >div{
+    width: 220px;
+    height: 25px;
+    border-bottom: 1px dotted #c4c4c4;
+}
+
+.tf-three >div>a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: #c4c4c4;
+}
+
+.tf-four>p{
+    padding-left: 40px;
+    padding-top: 40px;
+    color: white;
+}
+
+.tf-four > span{
+    position: relative;
+    top: -20px;
+    left: 40px;
+    color: #c4c4c4;
 }
